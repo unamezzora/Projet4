@@ -144,10 +144,13 @@ body {
 	padding-block: 3em;
 }
 .quote__text {
+	font-size: calc(1.375rem + 1.5vw);
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-	font-size: 40px;
+	margin-top: 0;
+    margin-bottom: .5rem;
+	line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
